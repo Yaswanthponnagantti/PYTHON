@@ -1,0 +1,14 @@
+m=input("enter the month")
+d=int(input("enter the date"))
+if(m=="january" and d<21) or m=="february"  or (m=="december"and day<21):
+    season="winter"
+elif(m=="march" and d>19) or m=="april" or m=="may":
+    season="summer"
+elif(m=="june" and  d>20) or m=="july" or m=="august":
+    season="spring"
+elif(m=="september" and d<22) or m=="october" or m=="november":
+    season="fall"
+else:
+    print("valid moth")
+
+print("the current season",season)
